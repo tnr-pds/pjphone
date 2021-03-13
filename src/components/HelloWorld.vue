@@ -134,7 +134,7 @@
               <span class="price">฿ 8,990</span>
               <input class="price" type="number" name="" v-model="updateipad">
               <input type='button' class="add-cart-btn" value="Add to Cart" @click="ip1m()">
-              <!-- <span class="price">จำนวน {{ip1}} เครื่อง</span> -->
+              <!-- <span class="price">จำนวน {{ip1price}} เครื่อง</span> -->
             </div>
           </div>
         </div>
@@ -241,7 +241,7 @@ export default {
   data() {
     return {
       namee:null,
-      updateipad:null,
+      updateipad:0,
       email:null,
 
     };
@@ -252,7 +252,7 @@ export default {
   },
 
   computed: {
-    ...mapGetters(["ip1"]),
+    ...mapGetters(["ip1","ip1price"]),
   },
 
     beforeCreate() {
@@ -273,7 +273,7 @@ export default {
 
   methods: {
     ip1m(){
-      this.$store.commit("ip1"); //vuex
+      this.$store.commit("ip1", this.updateipad); //vuex
 
       //cloud firebase
       const dataText = {

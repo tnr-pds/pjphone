@@ -8,7 +8,7 @@
         outlined
         tile
       >
-        Email:{{ item.Email }}, ยี่ห้อ:{{ item.name }}, ราคา:{{ item.price }},
+        Email:{{ item.Email }}, ยี่ห้อ:{{ item.name }}, ราคา:{{ item.price * item.countped}},
         รุ่น:{{ item.version }}, จำนวน:{{ item.countped }}
         <img :src="item.img" alt="" />
       </v-card>

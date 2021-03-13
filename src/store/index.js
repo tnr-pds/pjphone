@@ -253,11 +253,14 @@ export default new Vuex.Store({
     ip1: state =>{
       return state.ip1
     },
+    ip1price: state =>{
+      return state.ip1price
+    },
   },
   mutations: {
-    ip1:(state)=>{
+    ip1:(state, nupdateipad)=>{
       state.ip1 +=1
-      state.ip1price +=8990
+      state.ip1price = nupdateipad*8990
 
     },
   },
