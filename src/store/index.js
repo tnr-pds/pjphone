@@ -136,7 +136,7 @@ export default new Vuex.Store({
         version: "iPhone SE 64GB (2020)",
         img:
           "https://media-dtaconline.dtac.co.th/catalog/product/cache/e96373d1c57081d0b326a3dfa1f55e67/s/e/se_wh_3_5.jpg",
-        price: 27200,
+        price: 12590,
         about1:
           "จอภาพ Multi‑Touch ไวด์สกรีน แบบ LCD ขนาด 4.7 นิ้ว (แนวทแยง) พร้อมเทคโนโลยี IPS",
         about2:
