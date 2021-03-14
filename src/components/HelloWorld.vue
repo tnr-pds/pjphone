@@ -106,23 +106,37 @@
           <h3 class="version">iPad ใหม่ รุ่น Wifi</h3>
           <span class="price">฿ 8,990</span>
           <a class="popup-btn">Quick View</a>
-          <img class="product-img" src="https://media-dtaconline.dtac.co.th/catalog/product/cache/e96373d1c57081d0b326a3dfa1f55e67/i/p/ipad_wi-fi_10.2_in_gold.png" alt="" />
+          <img
+            class="product-img"
+            src="https://media-dtaconline.dtac.co.th/catalog/product/cache/e96373d1c57081d0b326a3dfa1f55e67/i/p/ipad_wi-fi_10.2_in_gold.png"
+            alt=""
+          />
         </div>
         <div class="popup-view">
           <div class="popup-card">
             <a><i class="fa fa-times close-btn"></i></a>
             <div class="product-img">
-              <img src="https://media-dtaconline.dtac.co.th/catalog/product/cache/e96373d1c57081d0b326a3dfa1f55e67/i/p/ipad_wi-fi_10.2_in_gold.png" alt="" />
+              <img
+                src="https://media-dtaconline.dtac.co.th/catalog/product/cache/e96373d1c57081d0b326a3dfa1f55e67/i/p/ipad_wi-fi_10.2_in_gold.png"
+                alt=""
+              />
             </div>
             <div class="info">
-              <h2>
-                iphone<br /><span>iPad ใหม่ รุ่น Wifi</span>
-              </h2>
-              <p> จอภาพ Retina 10.2</p>
-              <p>ชิพ A12 Bionic พร้อมสถาปัตยกรรม 64 บิต พร้อม โปรเซสเซอร์ร่วม M12 ในตัว</p>
-              <p>Wi Fi (802.11a/b/g/n/ac), สองย่านความถี่ (2.4GHz และ 5GHz), HT80</p>
-              <p>แบตเตอรี่ลิเธียมพอลิเมอร์ชนิดชาร์จซ้ำได้ภายในตัวเครื่อง 32.4 วัตต์ต่อชั่วโมง ท่องเว็บผ่าน Wi Fi หรือดูวิดีโอได้นานสูงสุด 10 ชั่วโมง</p>
-              <p>หน่วยความจำ 	32GB </p>
+              <h2>iphone<br /><span>iPad ใหม่ รุ่น Wifi</span></h2>
+              <p>จอภาพ Retina 10.2</p>
+              <p>
+                ชิพ A12 Bionic พร้อมสถาปัตยกรรม 64 บิต พร้อม โปรเซสเซอร์ร่วม M12
+                ในตัว
+              </p>
+              <p>
+                Wi Fi (802.11a/b/g/n/ac), สองย่านความถี่ (2.4GHz และ 5GHz), HT80
+              </p>
+              <p>
+                แบตเตอรี่ลิเธียมพอลิเมอร์ชนิดชาร์จซ้ำได้ภายในตัวเครื่อง 32.4
+                วัตต์ต่อชั่วโมง ท่องเว็บผ่าน Wi Fi หรือดูวิดีโอได้นานสูงสุด 10
+                ชั่วโมง
+              </p>
+              <p>หน่วยความจำ 32GB</p>
               <div class="select-con">
                 <h5 class="text">Color :</h5>
                 <select name="" id="" class="select">
@@ -132,8 +146,128 @@
                 </select>
               </div>
               <span class="price">฿ 8,990</span>
-              <input class="price" type="number" name="" v-model="updateipad">
-              <input type='button' class="add-cart-btn" value="Add to Cart" @click="ip1m()">
+              <input
+                type="button"
+                class="add-cart-btn"
+                value="Add to Cart"
+                @click="ip1m()"
+              />
+              <!-- <span class="price">จำนวน {{ip1price}} เครื่อง</span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+      <div class="product">
+        <div class="product-card">
+          <h2 class="name">iphone</h2>
+          <h3 class="version">iPhone 12 Pro (256GB)</h3>
+          <span class="price">฿ 27,200</span>
+          <a class="popup-btn">Quick View</a>
+          <img
+            class="product-img"
+            src="https://dynamic-cdn.eggdigital.com/d8lUtygaD.jpg"
+            alt=""
+          />
+        </div>
+        <div class="popup-view">
+          <div class="popup-card">
+            <a><i class="fa fa-times close-btn"></i></a>
+            <div class="product-img">
+              <img
+                src="https://dynamic-cdn.eggdigital.com/d8lUtygaD.jpg"
+                alt=""
+              />
+            </div>
+            <div class="info">
+              <h2>iphone<br /><span>iPhone 12 Pro (256GB)</span></h2>
+              <p>จอภาพ Super Retina XDR จอภาพ OLED ทั้งหน้าจอ ขนาด 6.1 นิ้ว (แนวทแยง)</p>
+              <p>
+                บันทึกวิดีโอ HDR ในแบบ Dolby Vision สูงสุด 60 fps บันทึกวิดีโอระดับ 4K ที่ 24 fps, 30 fps หรือ 60 fps บันทึกวิดีโอระดับ HD 1080p ที่ 30 fps หรือ 60 fps บันทึกวิดีโอระดับ HD 720p ที่ 30 fps
+              </p>
+              <p>
+               แบตเตอรี่ลิเธียมไอออนชนิดชาร์จซ้ำได้ภายในตัวเครื่อง ชาร์จแบบไร้สายในแบบ MagSafe สูงสุด 15 วัตต์10  ชาร์จแบบไร้สายในแบบ Qi สูงสุด 7.5 วัตต์10
+              </p>
+              <p>
+                แบตเตอรี่ลิเธียมพอลิเมอร์ชนิดชาร์จซ้ำได้ภายในตัวเครื่อง 32.4
+                วัตต์ต่อชั่วโมง ท่องเว็บผ่าน Wi Fi หรือดูวิดีโอได้นานสูงสุด 10
+                ชั่วโมง
+              </p>
+              <p>ชาร์จได้สูงสุด 50% ในเวลาประมาณ 30 นาที11 ด้วยอะแดปเตอร์ขนาด 20 วัตต์ หรือสูงกว่า</p>
+              <div class="select-con">
+                <h5 class="text">Color :</h5>
+                <select name="" id="" class="select">
+                  <option value="" class="red">Red</option>
+                  <option value="" class="blue">Blue</option>
+                  <option value="" class="black">Black</option>
+                </select>
+              </div>
+              <span class="price">฿ 27,200</span>
+              <input
+                type="button"
+                class="add-cart-btn"
+                value="Add to Cart"
+                @click="ip12m()"
+              />
+              <!-- <span class="price">จำนวน {{ip1price}} เครื่อง</span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-card">
+          <h2 class="name">iphone</h2>
+          <h3 class="version">iPhone 12 Pro (256GB)</h3>
+          <span class="price">฿ 27,200</span>
+          <a class="popup-btn">Quick View</a>
+          <img
+            class="product-img"
+            src="https://dynamic-cdn.eggdigital.com/d8lUtygaD.jpg"
+            alt=""
+          />
+        </div>
+        <div class="popup-view">
+          <div class="popup-card">
+            <a><i class="fa fa-times close-btn"></i></a>
+            <div class="product-img">
+              <img
+                src="https://dynamic-cdn.eggdigital.com/d8lUtygaD.jpg"
+                alt=""
+              />
+            </div>
+            <div class="info">
+              <h2>iphone<br /><span>iPhone 12 Pro (256GB)</span></h2>
+              <p>จอภาพ Super Retina XDR จอภาพ OLED ทั้งหน้าจอ ขนาด 6.1 นิ้ว (แนวทแยง)</p>
+              <p>
+                บันทึกวิดีโอ HDR ในแบบ Dolby Vision สูงสุด 60 fps บันทึกวิดีโอระดับ 4K ที่ 24 fps, 30 fps หรือ 60 fps บันทึกวิดีโอระดับ HD 1080p ที่ 30 fps หรือ 60 fps บันทึกวิดีโอระดับ HD 720p ที่ 30 fps
+              </p>
+              <p>
+               แบตเตอรี่ลิเธียมไอออนชนิดชาร์จซ้ำได้ภายในตัวเครื่อง ชาร์จแบบไร้สายในแบบ MagSafe สูงสุด 15 วัตต์10  ชาร์จแบบไร้สายในแบบ Qi สูงสุด 7.5 วัตต์10
+              </p>
+              <p>
+                แบตเตอรี่ลิเธียมพอลิเมอร์ชนิดชาร์จซ้ำได้ภายในตัวเครื่อง 32.4
+                วัตต์ต่อชั่วโมง ท่องเว็บผ่าน Wi Fi หรือดูวิดีโอได้นานสูงสุด 10
+                ชั่วโมง
+              </p>
+              <p>ชาร์จได้สูงสุด 50% ในเวลาประมาณ 30 นาที11 ด้วยอะแดปเตอร์ขนาด 20 วัตต์ หรือสูงกว่า</p>
+              <div class="select-con">
+                <h5 class="text">Color :</h5>
+                <select name="" id="" class="select">
+                  <option value="" class="red">Red</option>
+                  <option value="" class="blue">Blue</option>
+                  <option value="" class="black">Black</option>
+                </select>
+              </div>
+              <span class="price">฿ 27,200</span>
+              <input
+                type="button"
+                class="add-cart-btn"
+                value="Add to Cart"
+                @click="ip12m()"
+              />
               <!-- <span class="price">จำนวน {{ip1price}} เครื่อง</span> -->
             </div>
           </div>
@@ -234,16 +368,16 @@
 </template>
 
 <script>
-import firebase from 'firebase/app'
+import firebase from "firebase/app";
 
 import { mapGetters } from "vuex";
 export default {
   data() {
     return {
-      namee:null,
-      updateipad:0,
-      email:null,
-
+      namee: null,
+      // updateipad: 0,
+      // updateiphone12:0,
+      email: null,
     };
   },
   name: "HelloWorld",
@@ -252,52 +386,83 @@ export default {
   },
 
   computed: {
-    ...mapGetters(["ip1","ip1price"]),
+    ...mapGetters(["ip1", "ip1price"]),
   },
 
-    beforeCreate() {
+  beforeCreate() {
     firebase.auth().onAuthStateChanged((user) => {
       if (user != null) {
         // User is signed in.
         //ให้แสดง ชื่อ รูป e-mail
-        this.namee = user.displayName
-        this.email = user.email
+        this.namee = user.displayName;
+        this.email = user.email;
         // this.photoUrl = user.photoURL
       } else {
         // No user is signed in.
         //กลับไปหน้า login
-        this.$router.replace('/login')
+        this.$router.replace("/login");
       }
-    })
+    });
   },
 
   methods: {
-    ip1m(){
-      this.$store.commit("ip1", this.updateipad); //vuex
+    ip1m() {
 
       //cloud firebase
       const dataText = {
-        idname:this.namee,
-        name:'iphone',
-        version: 'iPad ใหม่ รุ่น Wifi',
-        countped: this.updateipad,
+        idname: this.namee,
+        name: "iphone",
+        version: "iPad ใหม่ รุ่น Wifi",
+        // countped: this.updateipad,
         Email: this.email,
         timestamp: firebase.firestore.FieldValue.serverTimestamp(),
         price: 8990,
-        img:'https://media-dtaconline.dtac.co.th/catalog/product/cache/e96373d1c57081d0b326a3dfa1f55e67/i/p/ipad_wi-fi_10.2_in_gold.png',
+        img:
+          "https://media-dtaconline.dtac.co.th/catalog/product/cache/e96373d1c57081d0b326a3dfa1f55e67/i/p/ipad_wi-fi_10.2_in_gold.png",
       };
-      
-      firebase.firestore().collection("IPhone").doc(this.namee).set(dataText)
-      
-      .then(() => {
+
+      firebase
+        .firestore()
+        .collection("IPhonepad")
+        .doc(this.namee)
+        .set(dataText)
+
+        .then(() => {
           console.log("Document successfully written! -> MyText");
           location.reload();
-          
         })
-        .catch((error) =>  {
+        .catch((error) => {
           console.error("Error writing document: ", error);
         });
+    },
+    ip12m() {
 
+      //cloud firebase
+      const dataText = {
+        idname: this.namee,
+        name: "iphone",
+        version: "iPhone 12 Pro (256GB)",
+        // countped: this.updateiphone12,
+        Email: this.email,
+        timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+        price: 27200,
+        img:
+          "https://dynamic-cdn.eggdigital.com/d8lUtygaD.jpg",
+      };
+
+      firebase
+        .firestore()
+        .collection("IPhone12")
+        .doc(this.namee)
+        .set(dataText)
+
+        .then(() => {
+          console.log("Document successfully written! -> MyText");
+          location.reload();
+        })
+        .catch((error) => {
+          console.error("Error writing document: ", error);
+        });
     },
   },
 };
