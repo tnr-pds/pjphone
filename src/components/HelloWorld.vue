@@ -220,7 +220,7 @@
       <div class="product">
         <div class="product-card">
           <h2 class="name">iphone</h2>
-          <h3 class="version">iPhone 12 Pro (256GB)</h3>
+          <h3 class="version">iPhone SE 64GB (2020)</h3>
           <span class="price">฿ 27,200</span>
           <a class="popup-btn">Quick View</a>
           <img

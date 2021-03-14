@@ -2,7 +2,18 @@
   <div>
     <v-card class="mt-5">
       <v-card
-        v-for="(item, key) in textList"
+        v-for="(item, key) in textListiphonepad"
+        :key="key"
+        class="pa-2"
+        outlined
+        tile
+      >
+        Email:{{ item.Email }}, ยี่ห้อ:{{ item.name }}, ราคา:{{ item.price * item.countped}},
+        รุ่น:{{ item.version }}, จำนวน:{{ item.countped }}
+        <img :src="item.img" alt="" />
+      </v-card>
+      <v-card
+        v-for="(item, key) in textListiphone12"
         :key="key"
         class="pa-2"
         outlined
@@ -23,8 +34,9 @@ import firebase from "firebase/app";
 export default {
   data: function () {
     return {
-      textList: [],
+      textListiphonepad: [],
       namee: null,
+      textListiphone12:[],
     };
   },
   beforeCreate() {
@@ -46,20 +58,32 @@ export default {
     getData() {
       firebase
         .firestore()
-        .collection("IPhone")
+        .collection("IPhonepad")
         .orderBy("idname")
         .onSnapshot((querySnapshot) => {
           var data = [];
           querySnapshot.forEach((doc) => {
             data.push(doc.data());
           });
-          this.textList = data;
+          this.textListiphonepad = data;
+        });
+
+        firebase
+        .firestore()
+        .collection("IPhone12")
+        .orderBy("idname")
+        .onSnapshot((querySnapshot) => {
+          var data = [];
+          querySnapshot.forEach((doc) => {
+            data.push(doc.data());
+          });
+          this.textListiphone12 = data;
         });
     },
     cls() {
       firebase
         .firestore()
-        .collection("IPhone")
+        .collection("IPhonepad")
         .doc(this.namee)
         .delete()
         .then(() => {
@@ -68,6 +92,20 @@ export default {
         .catch((error) => {
           console.error("Error removing document: ", error);
         });
+
+        firebase
+        .firestore()
+        .collection("IPhone12")
+        .doc(this.namee)
+        .delete()
+        .then(() => {
+          console.log("Document successfully deleted!");
+        })
+        .catch((error) => {
+          console.error("Error removing document: ", error);
+        });
+
+        
     },
   },
   created() {
